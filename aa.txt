@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+from github import Github
+
+token = "1111111111111111111111111111111"
+
+from github import Github
+
+g = Github()
+
+repo = g.get_repo("GitHubYid/api-demo1")
+
+print(repo.id)
+
+# repo.create_file("mm/test1.txt", "aa", "t4444444est111111111", branch="master")
